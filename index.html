@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS file --> index.html */
+        /* (1) Tag Selector */
+        body{
+            background-color: #1485b9;
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            /*background-color: #FCE38A;*/
+        }
+        h2{
+            text-align: center;
+            font-family: cursive;
+            font-weight: normal;
+            /*background-color: #EAFFD0;*/
+        }
+        h4{
+            text-align: center;
+            font-family: Aclonica;
+            font-weight: normal;
+        }
+        table{
+            width: 100%;
+            text-align: center;
+        }
+        th{
+            width: 33.33%; 
+            vertical-align: top;
+        }
+        /* (2) Class Selector */
+        .p-Aboutme{
+            font-weight: normal; 
+            text-align: justify;
+        }
+        .p-Name{
+            font-weight: normal;
+        }
+        .p-Footer{
+            text-align: center;
+        }
+        .name{
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+            background-color: rgb(146, 235, 73);
+        }
+        /* (3) Id Selector */
+        #th-Details{
+            text-align: left;
+        }
+
+        /* div */
+        .top-container{
+            background-color: orange;
+        }
+        .table-menu td:hover{
+            background-color: #82f518;
+        }
+        .table-content h2{
+            background-color: rgb(255, 127, 244);
+        }
+        .table-content img:hover{
+            background-color: rgb(17, 146, 233);
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Natta Profile Site</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+    <!--Inline CSS-->
+    <h1 style="text-align: center;">Profile</h1>
+    <h2 style="text-align: center;">
+        Nattarika Vongthirach</h2>  
+    <h4 style="text-align: center; font-weight:normal">
+        "To have hope is to live"</h4>    
+    <hr>
+    <!--Menu-->
+    <table style="width:100%; text-align: center">
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
+                <h3><a href="experiences.html" >Experiences</a></h3>
+            </td>
+            <td>
+                <h3><a href="abilities.html" >Abilities</a></h3>
+            </td>
+            <td>
+                <h3><a href="project.html" >Projects</a></h3>
+            </td>
+            <td>
+                <h3><a href="contact.html" >Contact</a></h3>
+            </td>
+        </tr>
+    </table>  
+    <hr>
+    <table>
+        <tr>
+            <th style="width: 33.33%; vertical-align: top;"><h2 >About me</h2>
+                </p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+                    I am a second year at 
+                    Bangkok University. 
+                    Faculty of Engineering 
+                    Computer and Robotics. 
+                </p>
+                <p>Email: <a href="nattarika.vong@bumail.net">nattarika.vong@bumail.net</a></p>
+            </th>
+            <th style="width: 33.33%; vertical-align: top;">
+                <p><img src="am2.png" alt="Nattarika" style="width: 60%;"></p>
+                </th>
+                <th style="width: 33.33%; vertical-align: top; text-align: left;"><h2>Details</h2>
+                <p>Name:</p>
+                    <p style="font-weight:normal;">Nattarika Vongthirach</p>
+                <p>Location:</p>
+                    <p style="font-weight:normal;">Thailand</p>
+                    <p>Social Media:</p>
+                    <!--Reference Social Media Icons-->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+                    <!--Icons Class Reference: https://www.w3schools.com/icons/icons_reference.asp-->
+                    <p><a href="https://www.youtube.com/channel/UC1kpPZjyN_eBctWe7_wRF6g" class="fa fa-youtube" style="font-size: 40px; color: red;"></a>
+                        <a href="https://www.facebook.com/nattarika.wangthirach" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://twitter.com/babybaby_098" class="fa fa-twitter" style="font-size: 40px; color: rgb(63, 185, 255);"></a>
+                    </p>
+            </th>
+        </tr>
+    </table>
+    <hr>
+    <p style="text-align: center;">© 2021 Nattarika Vongthirach</p>
+</body>
+</html>
